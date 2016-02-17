@@ -1,5 +1,6 @@
-require(["Hello", "mathOperation"],
-function(hello,    mathOperation){
-	console.log(hello);
-	console.log(mathOperation.add(2,3))
+require.config({
+	paths: {
+		"hello": "modules/Hello",
+		"mathOperation": "modules/mathOperation"
+	}
 });
