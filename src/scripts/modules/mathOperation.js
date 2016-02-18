@@ -1,4 +1,4 @@
-define(function() {
+define('mathOperation', function() {
     return {
         add: function(operand1, operand2) {
             return (operand1 + operand2);

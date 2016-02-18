@@ -1,4 +1,3 @@
-define(function() {
-
-    return "Hello World"
+define(function(require) {
+    return "Hello World";
 });
